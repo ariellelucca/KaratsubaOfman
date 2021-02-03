@@ -41,8 +41,8 @@ architecture Behavioral of ShiftnAdder is
         if (i_RSTn = '0') then 
           r_D1 <= (others => '0');
           r_D2 <= (others => '0');
-          r_D3 <= (others => '0');
-          r_D4 <= (others => '0');
+          r_D3 <= '0';
+          r_D4 <= '0';
           r_D5 <= (others => '0'); 
         elsif (rising_edge(i_CLK)) then
           r_D1 <= i_SXL;

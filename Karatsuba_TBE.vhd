@@ -6,7 +6,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity Karatsuba_TBE is
     Generic(
 	Size  : natural := 16;
-	WSize : natural := 16
+	WSize : natural := 8
     );
 end Karatsuba_TBE;
 

@@ -81,7 +81,6 @@ architecture RecursiveArchitecture of KaratsubaOfman is
        o_XY <= i_X * i_Y;
     end generate Termination;
 
-    Recursion: if Size > WSize generate
       ADDl: entity work.Adder
         generic map ( 
           p_K => Size/2
@@ -91,7 +90,7 @@ architecture RecursiveArchitecture of KaratsubaOfman is
           i_X2    => i_X(Size-1 downto Size/2),
           i_CARRY => w_CIX,
           o_XX    => w_ADD1_X, 
-	       o_CARRY => w_CX
+	  o_CARRY => w_CX
         );
 
        ADD2: entity work.Adder
@@ -105,6 +104,9 @@ architecture RecursiveArchitecture of KaratsubaOfman is
           o_XX    => w_ADD2_Y, 
 	  o_CARRY => w_CY
         );
+
+    Recursion: if Size > WSize generate
+
 
        -- REG ENTRADA
        KO1: entity work.KaratsubaOfman

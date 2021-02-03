@@ -6,16 +6,16 @@ use IEEE.NUMERIC_STD.ALL;
 entity Karatsuba_TBE is
     Generic(
 	Size  : natural := 16;
-	WSize : natural := 16
+	WSize : natural := 8
     );
 end Karatsuba_TBE;
 
 architecture arch_1 of Karatsuba_TBE is
-    signal w_X  : STD_LOGIC_VECTOR(Size-1 downto 0);
-    signal w_Y  : STD_LOGIC_VECTOR(Size-1 downto 0);
-    signal w_CLK : std_logic := '0';
-    signal w_RSTn: std_logic := '0';
-    signal w_XY : STD_LOGIC_VECTOR(2*Size-1 downto 0);
+    signal w_X   : STD_LOGIC_VECTOR(Size-1 downto 0);
+    signal w_Y   : STD_LOGIC_VECTOR(Size-1 downto 0);
+    signal w_CLK : STD_LOGIC := '0';
+    signal w_RSTn: STD_LOGIC := '0';
+    signal w_XY  : STD_LOGIC_VECTOR(2*Size-1 downto 0);
 begin 
 
   KO1: entity work.KaratsubaOfman

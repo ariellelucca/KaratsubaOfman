@@ -39,6 +39,5 @@ architecture Behavioral of Adder is
          w_CIN <= w_COUT;
 
       end generate Addition;
-    --o_CARRY(p_K downto p_K) <= w_COUT(p_K downto p_K);
-    o_CARRY <= w_COUT(p_K);
+   o_CARRY <= w_COUT(p_K);
 end Behavioral;

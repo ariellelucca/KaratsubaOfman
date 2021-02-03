@@ -9,8 +9,6 @@ entity Adder is
 	p_K : in natural := 4
     );
     Port ( 
-        i_CLK   : in std_logic;
-	i_RSTn  : in std_logic;
         i_X1    : in STD_LOGIC_VECTOR(p_K-1 downto 0);
         i_X2    : in STD_LOGIC_VECTOR(p_K-1 downto 0);
 	i_CARRY : in STD_LOGIC; 
@@ -27,8 +25,6 @@ architecture Behavioral of Adder is
   signal w_COUT: STD_LOGIC_VECTOR(p_K downto 0) := (others => '0');
 
 
-  BEGIN 
-    process(i_CLK, i_RSTn)
       begin
       Addition: for i in 0 to p_K-1 generate
         F_ADDER: entity work.FullAdder 
@@ -45,5 +41,4 @@ architecture Behavioral of Adder is
       end generate Addition;
     --o_CARRY(p_K downto p_K) <= w_COUT(p_K downto p_K);
     o_CARRY <= w_COUT(p_K);
- end process;
 end Behavioral;

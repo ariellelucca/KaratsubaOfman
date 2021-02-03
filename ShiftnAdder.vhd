@@ -31,7 +31,6 @@ architecture Behavioral of ShiftnAdder is
     signal w_T         : STD_LOGIC;
     signal w_TP        : STD_LOGIC_VECTOR(2*p_K+1 downto 0) := (others => '0');
     signal w_DES       : STD_LOGIC_VECTOR(p_K-1 downto 0):= (others => '0');
-	 
     signal w_ADD1_X    : STD_LOGIC_VECTOR(p_K-1 downto 0); 
     signal w_CX : STD_LOGIC;
 
@@ -52,6 +51,7 @@ architecture Behavioral of ShiftnAdder is
           r_D5 <= i_P;
         end if;
     end process;
+
       ADDl: entity work.Adder
         generic map ( 
           p_K => p_K

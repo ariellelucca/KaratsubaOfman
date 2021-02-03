@@ -19,28 +19,9 @@ end ShifterSubnAdder;
 
 architecture Behavioral of ShifterSubnAdder is
     signal r_E       : std_logic_vector (4*p_K-1 downto 0);
-	 
-    signal w_R       : std_logic_vector(2*p_K-1 downto 0);
-    signal w_R_CARRY : std_logic;
-
-    signal w_2C     : std_logic_vector (2*p_K downto 0) := (others => '0');
-
     signal w_U      : std_logic_vector (2*p_K+1 downto 0) := (others => '0');
     signal w_USHIFT : std_logic_vector (3*p_K+1 downto 0) := (others => '0');
-
     signal w_1SHIFT : std_logic_vector (4*p_K-1 downto 0) := (others => '0');
-    signal w_2SHIFT : std_logic_vector (4*p_K-2 downto 0) := (others => '0');
-
-    signal w_DESLN  : std_logic_vector (p_K-1 downto 0) := (others => '0');
-
-    signal w_PUS    : std_logic_vector (4*p_K-1 downto 0) := (others => '0');
-    signal w_PRES   : std_logic_vector (4*p_K-1 downto 0);
-
-    -- função para obter o complemento de dois
-   function F2C(p_num: std_logic_vector(2*p_K-1 downto 0)) return std_logic_vector is
-      begin
-           return not(p_num) + ("1");
-   end function; 
 
  BEGIN 
     process(i_CLK, i_RSTn)
@@ -56,9 +37,6 @@ architecture Behavioral of ShifterSubnAdder is
             o_XY     <= w_1SHIFT+w_USHIFT;
         end if;
     end process;
-
-
- 
 
 
 end Behavioral;
