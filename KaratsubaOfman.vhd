@@ -61,8 +61,8 @@ architecture RecursiveArchitecture of KaratsubaOfman is
     process(i_CLK, i_RSTn)
       begin
         if (i_RSTn = '0') then 
-		r_X <= (others => '0');
-		r_Y <= (others => '0');
+	  r_X <= (others => '0');
+	  r_Y <= (others => '0');
         elsif (rising_edge(i_CLK)) then
           r_X <= i_X;
           r_Y <= i_Y;
@@ -78,7 +78,8 @@ architecture RecursiveArchitecture of KaratsubaOfman is
     w_LY <= i_Y(Size/2-1 downto 0);
 
     Termination: if Size <= WSize generate
-       o_XY <= i_X * i_Y;
+	o_XY <= (others => '0') when (i_X = x"00" OR i_Y = x"00") else
+		i_X * i_Y;
     end generate Termination;
 
       ADDl: entity work.Adder
