@@ -108,8 +108,6 @@ architecture RecursiveArchitecture of KaratsubaOfman is
 
     Recursion: if Size > WSize generate
 
-
-       -- REG ENTRADA
        KO1: entity work.KaratsubaOfman
          generic map (
            Size => Size/2
@@ -120,9 +118,9 @@ architecture RecursiveArchitecture of KaratsubaOfman is
           i_CLK => i_CLK,
           i_RSTn => i_RSTn,
           o_XY   => w_P1
-        );
+       );
 
-       -- REG ENTRADA
+
        KO2: entity work.KaratsubaOfman
          generic map (
            Size => Size/2
@@ -135,7 +133,7 @@ architecture RecursiveArchitecture of KaratsubaOfman is
           o_XY   => w_P2
         );
 
-       -- REG ENTRADA
+
        KO3: entity work.KaratsubaOfman
          generic map (
            Size => Size/2

@@ -1,36 +1,10 @@
-C:/_FILES/VHDL/Nedjah_KOM/KaratsubaOfman.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\_FILES\VHDL\Nedjah_KOM\KaratsubaOfman.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity KaratsubaOfman
--- Compiling architecture RecursiveArchitecture of KaratsubaOfman
--- Loading entity Adder
--- Loading entity ShiftnAdder
--- Loading entity ShifterSubnAdder
-
-} {} {}} C:/_FILES/VHDL/Nedjah_KOM/FullAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/_FILES/VHDL/Nedjah_KOM/FullAdder.vhd
+C:/_FILES/VHDL/Nedjah_KOM/FullAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/_FILES/VHDL/Nedjah_KOM/FullAdder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity FullAdder
 -- Compiling architecture Behavioral of FullAdder
-
-} {} {}} C:/_FILES/VHDL/Nedjah_KOM/ShiftnAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\_FILES\VHDL\Nedjah_KOM\ShiftnAdder.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity ShiftnAdder
--- Compiling architecture Behavioral of ShiftnAdder
--- Loading entity Adder
 
 } {} {}} C:/_FILES/VHDL/Nedjah_KOM/Adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/_FILES/VHDL/Nedjah_KOM/Adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -43,6 +17,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Adder
 -- Compiling architecture Behavioral of Adder
 -- Loading entity FullAdder
+
+} {} {}} C:/_FILES/VHDL/Nedjah_KOM/ShiftnAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\_FILES\VHDL\Nedjah_KOM\ShiftnAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ShiftnAdder
+-- Compiling architecture Behavioral of ShiftnAdder
+-- Loading entity Adder
 
 } {} {}} C:/_FILES/VHDL/Nedjah_KOM/ShifterSubnAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\_FILES\VHDL\Nedjah_KOM\ShifterSubnAdder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

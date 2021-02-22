@@ -169,7 +169,7 @@ R2
 R3
 R4
 R5
-Z40 DEx4 work 13 karatsuba_tbe 0 22 1`A;lZ[j>d0^3b3bfdi0m0
+DEx4 work 13 karatsuba_tbe 0 22 1`A;lZ[j>d0^3b3bfdi0m0
 l19
 L13
 Vi70R;zldNFH@S6TO6R3RV0
@@ -184,31 +184,31 @@ R38
 !i113 1
 R15
 Ekaratsubaofman
-Z41 w1612573252
+Z40 w1612918737
 R1
 R2
 R3
 R4
 R5
 R6
-Z42 8KaratsubaOfman.vhd
-Z43 FKaratsubaOfman.vhd
+Z41 8KaratsubaOfman.vhd
+Z42 FKaratsubaOfman.vhd
 l0
 L6
 VWg;X8A=ee@c<g>6EIocKn0
 !s100 BBc8022:95`0knPI9WTG@2
 R9
 32
-Z44 !s110 1612573295
+Z43 !s110 1612918739
 !i10b 1
-Z45 !s108 1612573295.000000
-Z46 !s90 -reportprogress|300|KaratsubaOfman.vhd|
-Z47 !s107 KaratsubaOfman.vhd|
+Z44 !s108 1612918739.000000
+Z45 !s90 -reportprogress|300|KaratsubaOfman.vhd|
+Z46 !s107 KaratsubaOfman.vhd|
 !i113 1
 R15
 Arecursivearchitecture
-Z48 DEx4 work 16 shiftersubnadder 0 22 2iD5L5C>acA46e3F]ML`o2
-Z49 DEx4 work 11 shiftnadder 0 22 =]T;gni8j<O5a`DCV8jfD0
+Z47 DEx4 work 16 shiftersubnadder 0 22 2iD5L5C>acA46e3F]ML`o2
+Z48 DEx4 work 11 shiftnadder 0 22 =]T;gni8j<O5a`DCV8jfD0
 R17
 R1
 R2
@@ -218,43 +218,43 @@ R5
 R39
 l60
 L20
-V_g<86BzK44Z?B^N5Z?07K1
-!s100 hZ>S37bc=h302Lo81lkcL3
+VCN=FmjdgMoeTNXfMFNQhL2
+!s100 Y8A0KlzigM]Qn<>T;mPR[0
 R9
 32
-R44
+R43
 !i10b 1
+R44
 R45
 R46
-R47
 !i113 1
 R15
 Ekaratsubaofman2
-Z50 w1606266804
+Z49 w1606266804
 R1
 R2
 R3
 R4
 R5
 R6
+R41
 R42
-R43
 l0
 L6
 VhP0JH@X77W]o0hhlVb]E22
 !s100 6JXS4D?V0S^gOKfK2H4Oc1
 R9
 32
-Z51 !s110 1606266995
+Z50 !s110 1606266995
 !i10b 1
-Z52 !s108 1606266995.000000
+Z51 !s108 1606266995.000000
+R45
 R46
-R47
 !i113 1
 R15
 Arecursivearchitecture
 DEx4 work 16 shiftersubnadder 0 22 RVQgIiLlb7Y1[jSRPPi]J1
-Z53 DEx4 work 11 shiftnadder 0 22 e9iJ;C1nEmF?aTV0QAQk82
+Z52 DEx4 work 11 shiftnadder 0 22 e9iJ;C1nEmF?aTV0QAQk82
 DEx4 work 18 fourbitsmultiplier 0 22 l:V8`XnNMa6n_lib<jTH33
 DEx4 work 5 adder 0 22 gE]E]LNG9UU?JWBYcCAWd1
 R1
@@ -269,34 +269,34 @@ VQhJAKnBXj3m5VT5<7Bajg1
 !s100 Dba03kD`odKSh[Zzlzan]1
 R9
 32
-R51
+R50
 !i10b 1
-R52
+R51
+R45
 R46
-R47
 !i113 1
 R15
 Eonebitmultiplier
-Z54 w1598885979
+Z53 w1598885979
 R1
 R2
 R3
 R4
 R5
 R6
-Z55 8C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd
-Z56 FC:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd
+Z54 8C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd
+Z55 FC:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd
 l0
 L7
 VVI2M:8zTlYgZmGljDRc;Z2
 !s100 lgFVj=Y3Lb:cbEfQ9M6<]3
 R9
 32
-Z57 !s110 1608684095
+Z56 !s110 1608684095
 !i10b 1
-Z58 !s108 1608684095.000000
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd|
-Z60 !s107 C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd|
+Z57 !s108 1608684095.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd|
+Z59 !s107 C:/_FILES/VHDL/Nedjah_KOM/OneBitMultiplier.vhd|
 !i113 1
 R14
 R15
@@ -313,40 +313,40 @@ Vh`aK^RM0Y>ZjRF>:=XWcB1
 !s100 JFenbbA]5ZJY3aGdzKP[20
 R9
 32
-R57
+R56
 !i10b 1
+R57
 R58
 R59
-R60
 !i113 1
 R14
 R15
 Eproduct3
-Z61 w1603414526
+Z60 w1603414526
 R1
 R2
 R3
 R4
 R5
 R6
-Z62 8C:/_FILES/VHDL/Nedjah_KOM/product3.vhd
-Z63 FC:/_FILES/VHDL/Nedjah_KOM/product3.vhd
+Z61 8C:/_FILES/VHDL/Nedjah_KOM/product3.vhd
+Z62 FC:/_FILES/VHDL/Nedjah_KOM/product3.vhd
 l0
 L7
 V9`_iJL;cmimP;Z26>li[31
 !s100 S@DI7z`Igd]HVc3R6laTC2
 R9
 32
-R57
+R56
 !i10b 1
-R58
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/product3.vhd|
-Z65 !s107 C:/_FILES/VHDL/Nedjah_KOM/product3.vhd|
+R57
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/product3.vhd|
+Z64 !s107 C:/_FILES/VHDL/Nedjah_KOM/product3.vhd|
 !i113 1
 R14
 R15
 Abehavioral
-R53
+R52
 R26
 R17
 R1
@@ -361,32 +361,32 @@ VYW]=<X6F:[>PBPZ`oG?0C2
 !s100 TXcA`fla=Pm1Qn7FWR9C[2
 R9
 32
-R57
+R56
 !i10b 1
-R58
+R57
+R63
 R64
-R65
 !i113 1
 R14
 R15
 Ereg
-Z66 w1599162536
+Z65 w1599162536
 R4
 R5
 R6
-Z67 8C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd
-Z68 FC:/_FILES/VHDL/Nedjah_KOM/Reg.vhd
+Z66 8C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd
+Z67 FC:/_FILES/VHDL/Nedjah_KOM/Reg.vhd
 l0
 L4
 VMB]9MNVno:`TMER1`MfVn1
 !s100 ffMl[:53>EGb]_5W2F63b3
 R9
 32
-R57
+R56
 !i10b 1
-R58
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd|
-Z70 !s107 C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd|
+R57
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd|
+Z69 !s107 C:/_FILES/VHDL/Nedjah_KOM/Reg.vhd|
 !i113 1
 R14
 R15
@@ -400,35 +400,35 @@ VEH@0jHSN1bnPIKN;TT9XF1
 !s100 KifUKg@@NDM36nK=]eADH1
 R9
 32
-R57
+R56
 !i10b 1
-R58
+R57
+R68
 R69
-R70
 !i113 1
 R14
 R15
 Erkm
-Z71 w1600799569
+Z70 w1600799569
 R1
 R2
 R3
 R4
 R5
 R6
-Z72 8C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd
-Z73 FC:/_FILES/VHDL/Nedjah_KOM/RKM.vhd
+Z71 8C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd
+Z72 FC:/_FILES/VHDL/Nedjah_KOM/RKM.vhd
 l0
 L7
 Vi:HL9A0M5Wnh3moBNQcLc3
 !s100 5L9lGlcF^cGYgnF=koD7]1
 R9
 32
-Z74 !s110 1608684096
+Z73 !s110 1608684096
 !i10b 1
-R58
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd|
-Z76 !s107 C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd|
+R57
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd|
+Z75 !s107 C:/_FILES/VHDL/Nedjah_KOM/RKM.vhd|
 !i113 1
 R14
 R15
@@ -446,35 +446,35 @@ VmXEQ]Edcz=m2:6YRPm^0T1
 !s100 ;S[@C<lKCk3V9;kWBFT:z1
 R9
 32
-R74
+R73
 !i10b 1
-R58
+R57
+R74
 R75
-R76
 !i113 1
 R14
 R15
 Eshiftersubnadder
-Z77 w1612321175
+Z76 w1612321175
 R1
 R2
 R3
 R4
 R5
 R6
-Z78 8ShifterSubnAdder.vhd
-Z79 FShifterSubnAdder.vhd
+Z77 8ShifterSubnAdder.vhd
+Z78 FShifterSubnAdder.vhd
 l0
 L6
 V2iD5L5C>acA46e3F]ML`o2
 !s100 UYE7KOiS8fDJfkk43IH6Y1
 R9
 32
-Z80 !s110 1612573286
+Z79 !s110 1612573286
 !i10b 1
-Z81 !s108 1612573286.000000
-Z82 !s90 -reportprogress|300|ShifterSubnAdder.vhd|
-Z83 !s107 ShifterSubnAdder.vhd|
+Z80 !s108 1612573286.000000
+Z81 !s90 -reportprogress|300|ShifterSubnAdder.vhd|
+Z82 !s107 ShifterSubnAdder.vhd|
 !i113 1
 R15
 Abehavioral
@@ -483,41 +483,41 @@ R2
 R3
 R4
 R5
-R48
+R47
 l26
 L20
 V75P>;UY77<VfdV@Ak?90L2
 !s100 majfM`]Z9@;[c0[jEAB3U3
 R9
 32
-R80
+R79
 !i10b 1
+R80
 R81
 R82
-R83
 !i113 1
 R15
 Eshiftnadder
-Z84 w1612321254
+Z83 w1612321254
 R1
 R2
 R3
 R4
 R5
 R6
-Z85 8ShiftnAdder.vhd
-Z86 FShiftnAdder.vhd
+Z84 8ShiftnAdder.vhd
+Z85 FShiftnAdder.vhd
 l0
 L7
 V=]T;gni8j<O5a`DCV8jfD0
 !s100 d<@8i=Z>EognZaK:>S?K30
 R9
 32
-Z87 !s110 1612573291
+Z86 !s110 1612573291
 !i10b 1
-Z88 !s108 1612573291.000000
-Z89 !s90 -reportprogress|300|ShiftnAdder.vhd|
-Z90 !s107 ShiftnAdder.vhd|
+Z87 !s108 1612573291.000000
+Z88 !s90 -reportprogress|300|ShiftnAdder.vhd|
+Z89 !s107 ShiftnAdder.vhd|
 !i113 1
 R15
 Abehavioral
@@ -527,41 +527,41 @@ R2
 R3
 R4
 R5
-R49
+R48
 l37
 L23
 V=8^?ei9:7d44o4<4ZCQI32
 !s100 KdP]_hZ`aIESEZ3@8Dj:G3
 R9
 32
-R87
+R86
 !i10b 1
+R87
 R88
 R89
-R90
 !i113 1
 R15
 Ethreebitmultiplier
-Z91 w1602214051
+Z90 w1602214051
 R1
 R2
 R3
 R4
 R5
 R6
-Z92 8C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd
-Z93 FC:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd
+Z91 8C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd
+Z92 FC:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd
 l0
 L6
 VKg3oRMm;IJ4azAlCz;2XZ3
 !s100 WNWUX:P`><5mOO=I51k`E0
 R9
 32
-Z94 !s110 1612226543
+Z93 !s110 1612226543
 !i10b 1
-Z95 !s108 1612226543.000000
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd|
-Z97 !s107 C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd|
+Z94 !s108 1612226543.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd|
+Z96 !s107 C:/_FILES/VHDL/Nedjah_KOM/ThreeBitMultiplier.vhd|
 !i113 1
 R14
 R15
@@ -578,24 +578,24 @@ V7iF>YzQ>HP1@d]MGTAZQb1
 !s100 ^GJa?PNoGRMPfGhc<4;3>3
 R9
 32
-R94
+R93
 !i10b 1
+R94
 R95
 R96
-R97
 !i113 1
 R14
 R15
 Ethreetooneadder
-Z98 w1602731449
+Z97 w1602731449
 R1
 R2
 R3
 R4
 R5
 R6
-Z99 8C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd
-Z100 FC:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd
+Z98 8C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd
+Z99 FC:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd
 l0
 L7
 VGc?5K[b5N9h45;B<4i7jn0
@@ -605,8 +605,8 @@ R9
 R21
 !i10b 1
 R22
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd|
-Z102 !s107 C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd|
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd|
+Z101 !s107 C:/_FILES/VHDL/Nedjah_KOM/ThreeToOneAdder.vhd|
 !i113 1
 R14
 R15
@@ -626,8 +626,51 @@ R9
 R21
 !i10b 1
 R22
+R100
 R101
-R102
 !i113 1
 R14
+R15
+Evedicmult4x4
+Z102 w1614035425
+R1
+R2
+R3
+R4
+R5
+R6
+Z103 8VedicMult4x4.vhd
+Z104 FVedicMult4x4.vhd
+l0
+L7
+VD_G[zPodJF;OT^Ain]1:c2
+!s100 Rd@QcSY0oOC;K^ZDXhXoS3
+R9
+32
+Z105 !s110 1614035443
+!i10b 1
+Z106 !s108 1614035443.000000
+Z107 !s90 -reportprogress|300|VedicMult4x4.vhd|
+Z108 !s107 VedicMult4x4.vhd|
+!i113 1
+R15
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+Z109 DEx4 work 12 vedicmult4x4 0 22 D_G[zPodJF;OT^Ain]1:c2
+l34
+L15
+Vz7;GX=hlbRc5d;Hi0]]WD3
+!s100 2Mm^loIY]7ZaFZ:DQGk_k3
+R9
+32
+R105
+!i10b 1
+R106
+R107
+R108
+!i113 1
 R15

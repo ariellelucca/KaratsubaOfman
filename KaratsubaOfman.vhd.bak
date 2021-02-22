@@ -61,8 +61,8 @@ architecture RecursiveArchitecture of KaratsubaOfman is
     process(i_CLK, i_RSTn)
       begin
         if (i_RSTn = '0') then 
-		r_X <= (others => '0');
-		r_Y <= (others => '0');
+	  r_X <= (others => '0');
+	  r_Y <= (others => '0');
         elsif (rising_edge(i_CLK)) then
           r_X <= i_X;
           r_Y <= i_Y;
@@ -78,8 +78,39 @@ architecture RecursiveArchitecture of KaratsubaOfman is
     w_LY <= i_Y(Size/2-1 downto 0);
 
     Termination: if Size <= WSize generate
-       o_XY <= i_X * i_Y;
+	o_XY <= (others => '0') when (i_X = x"00" OR i_Y = x"00") else
+		i_X * i_Y;
     end generate Termination;
+
+
+
+    Recursion: if Size > WSize generate
+
+       KO1: entity work.KaratsubaOfman
+         generic map (
+           Size => Size/2
+         )
+         port map (
+          i_X    => w_HX,
+          i_Y    => w_HY,
+          i_CLK => i_CLK,
+          i_RSTn => i_RSTn,
+          o_XY   => w_P1
+       );
+
+
+       KO2: entity work.KaratsubaOfman
+         generic map (
+           Size => Size/2
+         )
+         port map (
+          i_X    => w_LX,
+          i_Y    => w_LY,
+	  i_CLK => i_CLK,
+          i_RSTn => i_RSTn,
+          o_XY   => w_P2
+        );
+
 
       ADDl: entity work.Adder
         generic map ( 
@@ -105,36 +136,6 @@ architecture RecursiveArchitecture of KaratsubaOfman is
 	  o_CARRY => w_CY
         );
 
-    Recursion: if Size > WSize generate
-
-
-       -- REG ENTRADA
-       KO1: entity work.KaratsubaOfman
-         generic map (
-           Size => Size/2
-         )
-         port map (
-          i_X    => w_HX,
-          i_Y    => w_HY,
-          i_CLK => i_CLK,
-          i_RSTn => i_RSTn,
-          o_XY   => w_P1
-        );
-
-       -- REG ENTRADA
-       KO2: entity work.KaratsubaOfman
-         generic map (
-           Size => Size/2
-         )
-         port map (
-          i_X    => w_LX,
-          i_Y    => w_LY,
-	  i_CLK => i_CLK,
-          i_RSTn => i_RSTn,
-          o_XY   => w_P2
-        );
-
-       -- REG ENTRADA
        KO3: entity work.KaratsubaOfman
          generic map (
            Size => Size/2
