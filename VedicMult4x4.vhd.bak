@@ -14,19 +14,7 @@ end VedicMult4x4;
 
 architecture Behavioral of VedicMult4x4 is
 
-  -- Divisão em duas partes de dois bit
-  signal w_A3A2 : STD_LOGIC_VECTOR(1 downto 0) := (others => '0');
-  signal w_A1A0 : STD_LOGIC_VECTOR(1 downto 0) := (others => '0');
-
-  signal w_B3B2 : STD_LOGIC_VECTOR(1 downto 0) := (others => '0');
-  signal w_B1B0 : STD_LOGIC_VECTOR(1 downto 0) := (others => '0');
-
   signal w_R1   : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
-
-  signal w_R2   : STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
-  signal w_R3A  : STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
-  signal w_R3B  : STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
-  signal w_R4   : STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
 
   signal w_AB1  : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
   signal o_COUT : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');

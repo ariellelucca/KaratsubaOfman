@@ -48,7 +48,6 @@ architecture Behavioral of VedicMult4x4 is
         o_COUT(3 downto 3) <= w_R1(5 downto 5);
 
 
-
 	w_R1(7 downto 6) <= ((i_A(1 downto 1) * i_B(3 downto 3)) + 
 			    (i_A(3 downto 3) * i_B(1 downto 1))  + 
 			    (i_A(2 downto 2) * i_B(2 downto 2))  +
@@ -70,28 +69,5 @@ architecture Behavioral of VedicMult4x4 is
                              o_COUT(5 downto 5));
 
 	w_AB1(7 downto 6)  <= w_R1(7 downto 6);
-        --o_COUT(7 downto 7) <= w_R1(7 downto 7);
-
-
-	--w_AB1(0 downto 0) <= ((i_A(0 downto 0) AND i_B(1 downto 1)) + ((i_A(1 downto 1) AND i_B(0 downto 0)));
-		 --( (i_A(0) * i_B(2)) + ((3) * i_B(0)) + (i_A(2) * i_B(2)) )
-		 --& ( (i_A(0) * i_B(1)) + (i_A(1) * i_B(0)) )
-                 
-
-	--w_A3A2 <= i_A(3 downto 2);
-	--w_A1A0 <= i_A(1 downto 0);
-
-	--w_B3B2 <= i_B(3 downto 2);
-	--w_B1B0 <= i_B(1 downto 0);
-
-
-	--w_R1  <= w_A3A2 * w_B3B2;
-	--w_R2  <= w_A1A0 * w_B1B0;
-	--w_R3A <= w_A3A2 * w_B1B0;
-	--w_R3B <= w_B3B2 * w_A1A0;
-
-	--w_R4 <= w_R3A + w_R3A;
-
-
 
 end Behavioral;
